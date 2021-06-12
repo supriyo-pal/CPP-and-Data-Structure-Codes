@@ -12,4 +12,20 @@ int main(){
         cout<<*ptr<<" ";
     }
 
+    vector<int> a;
+    int n;
+    cout<<"How many elements do you want to enter ?"<<endl;
+    cin>>n;
+    cout<<"Enter the elements"<<endl;
+    for(int i=0;i<n;i++){
+        int element;
+        cin>>element;
+        a.push_back(element);
+    }
+
+    for(int i=0;i<n;i++){
+
+        cout<<a[i]<<" ";
+
+    }
 }
